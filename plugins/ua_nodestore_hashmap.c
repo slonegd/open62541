@@ -27,7 +27,7 @@ typedef struct UA_NodeMapEntry {
     UA_Node node;
 } UA_NodeMapEntry;
 
-#define UA_NODEMAP_MINSIZE 64
+#define UA_NODEMAP_MINSIZE 1000000 // 64
 #define UA_NODEMAP_TOMBSTONE ((UA_NodeMapEntry*)0x01)
 
 typedef struct {
